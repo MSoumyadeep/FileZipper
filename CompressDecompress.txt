@@ -1,0 +1,7 @@
+For compressing:
+g++ encode.cpp huffman.cpp -o mainE
+./mainE inputFile.txt compressedFile.huf
+
+For decompressing:
+g++ decode.cpp huffman.cpp -o mainD
+./mainD compressedFile.huf outputFile.txt
